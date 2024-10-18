@@ -1,0 +1,103 @@
+body{
+    background-color: #ced1de;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.box{
+    background-color: #eff0f2;
+    width: 1100px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.images{
+    display: flex;
+    gap: 40px;
+}
+
+button{
+    background-color: white;
+    border: none;
+    height: 35px;
+    width: 70px;
+    border-radius: 8px;
+}
+
+.header{
+    margin-left: 33px;
+    margin-bottom: 25px;
+}
+
+.image{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.row img{
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.column img{
+    width: 270px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.row{
+    gap: 10px;
+    display: flex;
+}
+
+.picture img{
+    width: 25px;
+    height: 25px;
+
+}
+
+.description{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 20px;
+}
+
+h4{
+    font-weight: 550;
+    margin-top: -2px;
+    font-size: 30px;
+    margin-left: 13px;
+}
+
+.picture{
+    margin-right: 13px;
+    margin-top: 2px;
+    gap: 3px;
+    width: 300px;
+    height: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.picture p{
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+#mers{
+    border: 1px solid black; 
+}
